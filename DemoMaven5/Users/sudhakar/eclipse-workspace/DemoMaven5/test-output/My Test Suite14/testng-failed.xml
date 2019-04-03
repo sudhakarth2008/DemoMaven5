@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [My Test Suite14]">
+  <test thread-count="3" parallel="methods" name="Command line test(failed)">
+    <classes>
+      <class name="SamSung.Actions124">
+        <methods>
+          <include name="Test_TC01"/>
+          <include name="BeforeTest_AnyTest"/>
+        </methods>
+      </class> <!-- SamSung.Actions124 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [My Test Suite14] -->

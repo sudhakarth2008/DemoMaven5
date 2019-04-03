@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="Tests(failed)">
+    <classes>
+      <class name="SamSung.Test8">
+        <parameter name="Browser" value="Chrome"/>
+        <methods>
+          <include name="AftersuiteSetup2"/>
+          <include name="TC02"/>
+          <include name="suiteSetup1"/>
+        </methods>
+      </class> <!-- SamSung.Test8 -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

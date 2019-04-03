@@ -1,0 +1,41 @@
+
+ <?xml version="1.0" encoding="UTF-8"?> 
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+ <suite name="Suite" verbose="1" thread-count="3" parallel="methods">   
+
+  <Test name="Test_TC01">    
+ <classes> 
+ <parameter name="Browser" value="Chrome" /> 
+ <class name="SamSung.Test8">  
+  <methods>  
+ <include name="TC01">
+   </methods>  
+   </class>  
+ </classes> 
+   </Test>  
+
+
+  <Test name="Test_TC02">    
+ <classes> 
+ <parameter name="Browser" value="IE" /> 
+ <class name="SamSung.Test8">  
+  <methods>  
+ <include name="TC02">
+   </methods>  
+   </class>  
+ </classes> 
+   </Test>  
+
+
+  <Test name="Test_TC03">    
+ <classes> 
+ <parameter name="Browser" value="FireFox" /> 
+ <class name="SamSung.Test8">  
+  <methods>  
+ <exclude name="TC03">
+   </methods>  
+   </class>  
+ </classes> 
+   </Test>  
+
+   </suite>  
